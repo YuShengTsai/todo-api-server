@@ -68,14 +68,18 @@ npm run dev
 POST	/auth/login	登入（回傳 accessToken & refreshToken）
 POST	/auth/refresh	使用 refresh token 換新的 access token
 POST	/auth/logout	登出（刪除 refresh token）
-📋 Todo API（需 JWT 驗證）
+```
+---
+
+## 📋 Todo API（需 JWT 驗證）
+```bash
 方法	路徑	說明
 GET	/todos	取得目前使用者的 todos
 POST	/todos	新增 todo
 DELETE	/todos/:id	刪除 todo（只能刪自己的）
-
 ```
 ---
+
 ## 📫 Postman 測試套件
 
 ```bash
