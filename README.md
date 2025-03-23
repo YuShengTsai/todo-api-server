@@ -59,7 +59,7 @@ npx ts-node scripts/seed.ts
 # 5. 啟動伺服器
 npm run dev
 
-🔐 Auth API
+## 🔐 Auth API
 方法	路徑	說明
 POST	/auth/login	登入（回傳 accessToken & refreshToken）
 POST	/auth/refresh	使用 refresh token 換新的 access token
@@ -83,5 +83,5 @@ DELETE	/todos/:id	刪除 todo（只能刪自己的）
 - 可於 Postman Console 查看測試流程與變數紀錄
 
 
-👤 作者
+## 👤 作者
 YuShengTsai
