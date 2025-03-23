@@ -63,6 +63,7 @@ npm run dev
 ---
 
 ## 🔐 Auth API
+```bash
 方法	路徑	說明
 POST	/auth/login	登入（回傳 accessToken & refreshToken）
 POST	/auth/refresh	使用 refresh token 換新的 access token
@@ -73,9 +74,11 @@ GET	/todos	取得目前使用者的 todos
 POST	/todos	新增 todo
 DELETE	/todos/:id	刪除 todo（只能刪自己的）
 
+```
 ---
 ## 📫 Postman 測試套件
 
+```bash
 本專案提供完整 Postman 測試流程，包含自動儲存 token、自動串接 todo 建立與刪除測試：
 
 - [🔄 Collection 測試檔](./todo-api-server.postman_collection.json)
@@ -86,6 +89,7 @@ DELETE	/todos/:id	刪除 todo（只能刪自己的）
 - 所有請求皆自動加上 `Bearer Token`，免手動填入
 - 可於 Postman Console 查看測試流程與變數紀錄
 
+```
 ---
 
 ## 👤 作者
